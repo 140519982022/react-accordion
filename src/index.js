@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Accordian from './assets/components/Accordian';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+import Products from './assets/components/Products';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+
+    {/* accordian code starts here */}
+    <Accordian></Accordian>
+    {/* <Products></Products> */}
+    {/* accordian code end here */}
+
   </React.StrictMode>
 );
 
