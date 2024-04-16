@@ -22,7 +22,7 @@ function Accordian() {
                 <div class="faq">
                     <div class="faqItem">
                         <div class="faqQUEST" onClick={ () => getUpdateCurrentId(productsItem.id)}>
-                            <h1>Question No. {productsItem.id}</h1>
+                            <h1>Accordion Item #{productsItem.id}</h1>
     
                         </div>
     

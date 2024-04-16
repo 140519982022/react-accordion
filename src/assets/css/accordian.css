@@ -12,16 +12,18 @@
 
 .faqQUEST{
     padding: 15px;
-    background-color: skyblue;
+    background-color: rgba(7, 12, 14, 0.896);
     cursor: pointer; /* add cursor style */
+    color: white;
 
 }
 
 .faqANS{
-    background-color: lightblue;
+    background-color: gray;
     padding: 15px;
     border-top: 2px solid black;
     display: none;
+    font-weight: 600;
 }
 
 .addANS{
