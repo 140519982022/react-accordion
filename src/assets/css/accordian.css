@@ -1,0 +1,29 @@
+
+
+.faq{
+    border: 6px double black;
+}
+
+.faqItem{
+    border: 1px double black;
+
+    
+}
+
+.faqQUEST{
+    padding: 15px;
+    background-color: skyblue;
+    cursor: pointer; /* add cursor style */
+
+}
+
+.faqANS{
+    background-color: lightblue;
+    padding: 15px;
+    border-top: 2px solid black;
+    display: none;
+}
+
+.addANS{
+    display: block;
+}
